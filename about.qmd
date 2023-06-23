@@ -2,8 +2,33 @@
 title: "About"
 ---
 
-About this site
 
-```{r}
-1 + 1
-```
+## About Me
+
+Hi my name is **Emmanuel Yeboah**, I currently attending McKinney Boyd High School (Go Broncos!) I am interested in Computer Science, modern technological devices (such as the Google Pixel, self driving taxis, and etc) oh! and I am also interested in science exploration of space, seas, and strange yet fascinating organisms all around earth. 
+
+### About the Project
+*Fuel Efficiency and Weight*, this project shows a plot describing the relationship between the **weight of cars** and how fuel they use **(MPG)**
+
+
+### Goals
+- To analysis the usage of gas 
+- To analysis the efficiency of gas of cars
+- To to see how the weight of cars effect fuel usage
+  + Well on most known cars ;)
+  
+- Number of weights are as follows:
+1. one pound
+2. two pounds
+3. four pounds
+4. five pounds
+
+
+"This is data science"
+\
+~Preceptor
+
+[Kane’s Free Data Science Bootcamp(https://bootcamp.davidkane.info)]
+
+
+

@@ -11,6 +11,20 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "Hi my name is Emmanuel Yeboah, I currently attending McKinney Boyd High School (Go Broncos!) I am interested in Computer Science, modern technological devices (such as the Google Pixel, self driving taxis, and etc) oh! and I am also interested in science exploration of space, seas, and strange yet fascinating organisms all around earth.\n\n\nFuel Efficiency and Weight, this project shows a plot describing the relationship between the weight of cars and how fuel they use (MPG)\n\n\n\n\nTo analysis the usage of gas\nTo analysis the efficiency of gas of cars\nTo to see how the weight of cars effect fuel usage\n\nWell on most known cars ;)\n\nNumber of weights are as follows:\n\n\none pound\ntwo pounds\nfour pounds\nfive pounds\n\n“This is data science”\n~Preceptor\n[Kane’s Free Data Science Bootcamp(https://bootcamp.davidkane.info)]"
+  },
+  {
+    "objectID": "about.html#about-the-project",
+    "href": "about.html#about-the-project",
+    "title": "About",
+    "section": "About the Project",
+    "text": "About the Project\nFuel Efficiency and Weight, this project shows a plot describing the relationship between the weight of cars and how fuel they use (MPG)\n\nGoals\n\nTo analysis the usage of gas\nTo analysis the efficiency of gas of cars\nTo to see how the weight of cars effect fuel usage"
+  },
+  {
+    "objectID": "about.html#fuel-efficiency-and-weight",
+    "href": "about.html#fuel-efficiency-and-weight",
+    "title": "About",
+    "section": "Fuel Efficiency and Weight",
+    "text": "Fuel Efficiency and Weight\nThis project shows a plot describing the relationship between the weight of cars and how fuel they use (MPG)"
   }
 ]
