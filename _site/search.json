@@ -26,5 +26,12 @@
     "title": "About",
     "section": "Fuel Efficiency and Weight",
     "text": "Fuel Efficiency and Weight\nThis project shows a plot describing the relationship between the weight of cars and how fuel they use (MPG)"
+  },
+  {
+    "objectID": "sources.qmd..html",
+    "href": "sources.qmd..html",
+    "title": "Sources",
+    "section": "",
+    "text": "An overview of sources used in my project. These are my sources. Here are some challenges. Quarto websites are awesome."
   }
 ]
