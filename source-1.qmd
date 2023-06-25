@@ -1,5 +1,8 @@
 ---
 title: "Source 1"
+bibliography: bib/references.bib
 author: "Emmanuel"
 editor: visual
 ---
+
+**@Lovelace1842 is an interesting reference.**

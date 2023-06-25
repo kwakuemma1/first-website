@@ -19,5 +19,12 @@
     "title": "Sources",
     "section": "",
     "text": "An overview of sources used in my project. These are my sources. Here are some challenges. Quarto websites are awesome."
+  },
+  {
+    "objectID": "source-1.html",
+    "href": "source-1.html",
+    "title": "Source 1",
+    "section": "",
+    "text": "Lovelace (1842) is an interesting reference.\n\n\n\n\nReferences\n\nLovelace, Augusta Ada. 1842. “Sketch of the Analytical Engine Invented by Charles Babbage, by LF Menabrea, Officer of the Military Engineers, with Notes Upon the Memoir by the Translator.” Taylor’s Scientific Memoirs 3: 666–731."
   }
 ]

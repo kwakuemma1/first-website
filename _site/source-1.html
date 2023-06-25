@@ -21,6 +21,25 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1.6em;
   vertical-align: middle;
 }
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
 </style>
 
 
@@ -64,7 +83,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-sidebar floating nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -88,15 +107,73 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="./about.html">
  <span class="menu-text">About</span></a>
   </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-sources" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Sources</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-sources">    
+        <li>
+    <a class="dropdown-item" href="./source-1.html">
+ <span class="dropdown-text">Source 1</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./source-2.html">
+ <span class="dropdown-text">Source 2</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-interactive-pages" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Interactive Pages</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-interactive-pages">    
+        <li>
+    <a class="dropdown-item" href="./plane-passengers.html">
+ <span class="dropdown-text">Plane Passengers</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./map-london.html">
+ <span class="dropdown-text">Map of London</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./plotly.html">
+ <span class="dropdown-text">Chick Weight</span></a>
+  </li>  
+    </ul>
+  </li>
 </ul>
               <div id="quarto-search" class="" title="Search"></div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title">Source 1</h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./source-1.html" class="sidebar-item-text sidebar-link active">Source 1</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./source-2.html" class="sidebar-item-text sidebar-link">Source 2</a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
@@ -106,7 +183,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Source 1</h1>
+<h1 class="title d-none d-lg-block">Source 1</h1>
 </div>
 
 
@@ -127,10 +204,16 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
+<p><span class="citation" data-cites="Lovelace1842">Lovelace (<a href="#ref-Lovelace1842" role="doc-biblioref">1842</a>)</span> is an interesting reference.</p>
 
 
 
-</main> <!-- /main -->
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
+<div id="ref-Lovelace1842" class="csl-entry" role="doc-biblioentry">
+Lovelace, Augusta Ada. 1842. <span>“Sketch of the Analytical Engine Invented by <span>Charles Babbage</span>, by <span>LF Menabrea</span>, Officer of the Military Engineers, with Notes Upon the Memoir by the Translator.”</span> <em>Taylor’s Scientific Memoirs</em> 3: 666–731.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
