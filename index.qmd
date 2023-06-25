@@ -5,28 +5,36 @@ title: "first-website"
 
 ```{r}
 #| output: false 
-#| #| echo: false
+#| echo: false
 library(tidyverse)
 library(ggthemes)
+library(knitr)
 ```
 
 
 
 ```{r}
 #| echo: false 
-#| #| label: car-plot
+#| label: car-plot
 ```
 
 ```{r}
-mtcars |> select(mpg, wt) |>
-ggplot(aes(x = wt, y = mpg)) + 
-geom_point() + 
-geom_smooth(method = "lm", formula =  y ~ x, se = FALSE) +
-theme_clean() +
-labs(title = "Fuel Effciency and Weight",
-subtitle = "Heavier cars are less fuel efficient",
-y = "MPG",
-x = "Weight(1000s of lbs)",
-caption = "Henderson and Velieman (1981)")
+my_plot <- read_rds(file = "car-plot.rds")
+car_plot
+ggsave("car-plot.png", plot = car_plot)
 ```
+
+
+
+```{r}
+# To see an image of my plot using function:include_graphics()
+# setting the argument to car-plot.png to see the image
+include_graphics("images/car-plot.png")
+
+```
+
+
+
+
+
 
