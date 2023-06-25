@@ -14,8 +14,6 @@ car_plot <- mtcars |> select(mpg, wt) |>
        x = "Weight(1000s of lbs)",
        caption = "Henderson and Velieman (1981)")
 
-car_plot
-
 # To Saving any R object in an .rds file: write_rds() 
 # Saving the plot "car_plot" in an .rds file
 write_rds(car_plot, "car-plot.rds")

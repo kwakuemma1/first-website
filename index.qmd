@@ -19,6 +19,9 @@ library(knitr)
 ```
 
 ```{r}
+#| echo: false
+#| message: false
+#| warning: false
 my_plot <- read_rds(file = "car-plot.rds")
 car_plot
 ggsave("car-plot.png", plot = car_plot)
@@ -27,10 +30,13 @@ ggsave("car-plot.png", plot = car_plot)
 
 
 ```{r}
+#| echo: false
+#| message: false
+#| warning: false
+
 # To see an image of my plot using function:include_graphics()
 # setting the argument to car-plot.png to see the image
 include_graphics("images/car-plot.png")
-
 ```
 
 
